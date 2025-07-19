@@ -9,6 +9,7 @@
     "lint": "next lint",
     "export": "next export",
     "out": "next build && next export"
+    "sonar": "sonarqube-scanner"
   },
   "dependencies": {
     "@uiw/react-textarea-code-editor": "^1.4.4",
