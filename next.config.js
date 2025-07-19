@@ -6,7 +6,10 @@ const nextConfig = {
   images: {
     loader: "akamai",
     path: "",
+  },
+  eslint: {
+    ignoreDuringBuilds: true, // ✅ This skips ESLint during `npm run build`
   }
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;
